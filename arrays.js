@@ -14,8 +14,13 @@ function addElementToEndOfArray(array, element) {
   [...array, element]
   return [...array, element]
 }
+<<<<<<< HEAD
 function destructivelyAddElementToEndOfArray(array, element) {
   array.push(element);
+=======
+function destructivelyAddElementToTheEndOfArray(array, element) {
+  array.push();
+>>>>>>> bb11a490bd84ba0f0d03f228477aa1434556a91e
   return array;
 }
 
@@ -29,7 +34,12 @@ function destructivelyRemoveElementFromBeginningOfArray(array) {
 }
 
 function removeElementFromBeginningOfArray(array) {
+<<<<<<< HEAD
   return array.slice(1);
+=======
+  array.slice();
+  return array;
+>>>>>>> bb11a490bd84ba0f0d03f228477aa1434556a91e
 }
 
 function destructivelyRemoveElementFromEndOfArray(array) {
